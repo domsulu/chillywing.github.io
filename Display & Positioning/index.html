@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Display & Positioning Cheatsheet
+    </title>
+    <link href="resources/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <!--NAVIGATION SECTION-->
+    <nav class="navigation">
+      <ul class="nav-child">
+        <li><a href="#position">Position</a></li>
+        <li><a href="#zindex">Z-Index</a></li>
+        <li><a href="#display">Display</a></li>
+      </ul>
+    </nav>
+
+    <!--HEADER SECTION-->
+    <header>
+      <h1>Display & Positioning</h1>
+      <p>Sebelum melanjutkan membaca, kamu perlu tahu tentang <strong>flow of HTML</strong> yaitu <em>alur dari sebuah browser untuk merender document dari atas ke bawah, dan kiri ke bawah.</em></p>
+    </header>
+
+    <!--MAIN SECTION-->
+    <main>
+
+      <!--POSITION SECTION-->
+      <section class="position">
+        <h2 id="position">Position Property</h2>
+        <p><strong>Block Element</strong> pada asalnya mengambil ruang garis mereka sendiri dan tidak saling menindih dan selalu berawal dari kiri.</p>
+        <!--POSITION TABLE-->
+        <table class="table-position">
+         <thead>          
+            <tr class="table-header1">
+              <th scope="col">Property</th>
+              <th scope="col">Value</td>
+              <th scope="col">Fungsi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" rowspan="6">Position</th>
+              <td>Static</td>
+              <td class="fungsi">default value</td>
+            </tr>
+            <tr>
+              <td>Relative</td>
+              <td class="fungsi">memposisikan sebuah elemen <strong>relatif</strong> kepada default position-nya</td>
+            </tr>
+            <tr>
+              <td>Absolute</td>
+              <td class="fungsi">semua elemen akan <strong>meng-ignore</strong> elemen dengan position absolute dan memposisikan elemen relatif terhadap parent element</td>
+            </tr>
+            <tr>
+              <td>Fixed</td>
+              <td class="fungsi">menetapkan elemen ke spesifik lokasi di laman web tanpa terpengaruh user-scrolling</td>
+            </tr>
+            <tr>
+              <td>Sticky</td>
+              <td class="fungsi">menetapkan elemen tetap pada flow-nya dan akan tetap pada <strong>offset position</strong>-nya</td>
+            </tr>
+          </tbody>
+        </table>
+        <aside class="offset">
+          <h3>Offset Properties</h3>
+          <p>Sebelum lanjut lagi, kamu perlu tahu yang namanya <strong>Offset Properties</strong> yaitu <em>properties yang digunakan untuk memindahkan elemen dari default static position-nya.</em></p>
+          <ul>
+            <li>Top : memindahkan dari atas ke bawah</li>
+            <li>Bottom : memindahkan dari bawah ke atas</li>
+            <li>Right : memindahkan dari kanan ke kiri</li>
+            <li>Left : memindahkan daari kiri ke kanan</li>
+          </ul>
+        </aside>
+      </section>
+
+      <!--Z-INDEX SECTION-->
+      <section class="zindex">
+        <h2 id="zindex">Z-Index</h2>
+        <p><strong>(Z-Index)</strong> adalah property yang digunakan untuk mengontrol tingkat kedalaman elemen pada web. Dengan value berupa <strong>integer</strong>, semakin besar integer-nya maka semakin besar elemen tersebut.</p>
+        <img src="https://miro.medium.com/v2/resize:fit:750/format:webp/1*gWXT42nAT-lU1VgrICsCKg.png" alt="Ilustrasi penggunaan dari z-index">
+      </section>
+
+      <!--DISPLAY SECTION-->
+      <section class="display" id="display">
+        <h2>Display</h2>
+        <p>Display adalah salah satu property dalam CSS yang berguna untuk mengatur tampilnya suatu elemen.</p>
+        <!--DISPLAY TABLE-->
+        <table>
+
+          <thead>
+            <tr class="table-header2">
+              <th>Value</th>
+              <th>Fungsi</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Inline</td>
+              <td class="fungsi">untuk mengatur box element menjadi sesuai ukuran, bisa berbagi tempat dengan elemen lainnya, tetapi width dan height-nya tidak bisa diubah.</td>
+            </tr>
+            <tr>
+              <td>Block</td>
+              <td class="fungsi">untuk mengubah box element menjadi <strong>line-break</strong>dan mengambil space sendiri, tetapi ukurannya bisa di ubah.</td>
+            </tr>
+            <tr>
+              <td>Inline-Block</td>
+              <td class="fungsi">untuk membuat elemen bisa berbagi space dengan yang lain<strong>(seperti inline)</strong> dan ukurannya bisa diubah<strong>(seperti block)</strong>.</td>
+            </tr>
+          </tbody>
+
+        </table>
+
+      </section>
+
+    </main>
+    <footer>
+      <p>made by @domporterbridges</p>
+    </footer>
+
+  </body>
+</html>

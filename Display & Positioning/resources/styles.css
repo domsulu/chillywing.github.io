@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+/* table configuration */
+th,td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+table {
+    margin: 30px;
+    border: 1px solid black;
+}
+
+.fungsi {
+    text-align: left;
+}
+
+.table-header1,
+.table-header2 {
+    background-color: rgb(45, 39, 39);
+    color: whitesmoke;
+}
+/* table configuration */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 253, 253);
+    font-family: consolas, monospace, 'sans serif';
+}
+ 
+
+
+/* nav section */
+nav {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(45, 39, 39);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    float: top;
+}
+
+nav li {
+    display: inline-block;
+    width: 280px;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+a[href*='#'] {
+    color: white;
+    text-decoration: none;
+}
+
+/* header section */
+
+header {
+    background-color: rgb(207, 203, 203);
+    padding: 15px;
+    background-image: url('https://i.pinimg.com/564x/07/1e/c3/071ec35de1f81d49132d336035e61d9f.jpg');
+    color: whitesmoke;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header p {
+    font-size: 22px;
+}
+
+/* main section */
+
+
+/* position section */
+
+.position h2 {
+    background-color: rgb(45, 39, 39);
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+.position p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.offset {
+    text-decoration: none;
+}
+
+.offset h3 {
+    margin: 0;
+    background-color: rgb(45, 39, 39);
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px;
+}
+
+.offset ul{
+    line-height: 2;
+    background-color: rgb(133, 121, 103);
+    color: whitesmoke;
+}
+
+.offset ul li {
+    padding: 8px;
+}
+
+/* z-index section */
+.zindex h2 {
+    background-color: rgb(45, 39, 39);
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+.zindex p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+img[src*='1*gWXT42nAT-lU1VgrICsCKg.png'] {
+    width: 400px;
+}
+
+/* display section */
+.display h2 {
+    background-color: rgb(45, 39, 39);
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+.display p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/*footer section*/
+footer {
+    background-color: rgb(45, 39, 39);
+    color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: lowercase;
+}
+
+footer p {
+    opacity: 0.6;
+}
+
+
