@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #3C2A21;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* header section */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #1A120B;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    width: 100%;  
+    height: 70px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid #ffffff 0.125rem;
+}
+
+nav .logo {
+    display: inline-flex;
+    width: 30%;
+}
+
+nav h1 {
+    display: inline;
+    font-weight: 700;
+    font-family: 'Kalam', sans-serif;
+    letter-spacing: 0.325rem;
+    color: #FFFFFF;
+}
+
+nav img {
+    width: 20%;
+    height: 65px;
+    overflow: hidden;
+    margin-left: 0.5rem;
+    display: inline;
+}
+
+nav li {
+    display: inline;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-right: 1rem;
+    letter-spacing: 0.08rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav a:active {
+    color: rgb(182, 64, 64);
+}
+
+/* main section */
+main {
+    position: relative;
+    top: 65px;
+
+}
+
+/*mission section*/
+section.mission {
+    background-image: url('./images/coffeeshop.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+    border: solid #000000 0.6rem;  
+    margin: 0;
+    height: 500px;
+    width : 90%;
+    margin: 5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission article {
+    color: #ffffff;
+    background-color: #D5CEA3;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    border: solid #000000 0.3rem;
+}
+
+.mission h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 3%;
+}
+
+.mission h3 {
+    letter-spacing: 0.03rem;
+    font-weight: 400;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 1.5rem;
+    margin: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+    line-height: 2.5rem;
+}
+.mission img {
+    width: 25%;
+    height: 40%;
+    overflow: hidden;
+}
+
+/* product section */
+
+section .product {
+    margin-bottom: 5rem;
+}
+
+.product .box {
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A120B;
+    margin: 0 auto;
+    border: solid #000000 0.6rem;
+    color: #ffffff;
+    font-family: 'Roboto Slab', sans-serif;
+    margin-bottom: 5rem;
+}
+
+.product .product-list {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product figure {
+    width: 25%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product img {
+    width: 200px;
+    height: 200px;
+    border: solid #000000 0.3rem;
+}
+
+.product figcaption {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Dancing Script', sans-serif;
+    padding: 0.4rem;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.3rem;
+}
+
+.product h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    margin-top: 2.5rem;
+    letter-spacing: 0.2rem
+}
+
+/* employee section */
+
+section.employee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #1A120B;
+    border: solid #000000 0.6rem;
+    color: #ffffff;
+    align-items: center;
+}
+
+.employee h2 {
+    text-align: center;
+    font-family: 'Roboto Slab', sans-serif;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
+}
+
+.employee-list {
+    margin: 0 auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.employee .list {
+    text-align: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5rem;
+    margin-bottom: 0.7rem;
+    align-items: center;
+}
+
+.list img{
+    width: 200px;
+    height: 200px;
+    border: solid #000000 0.3rem;
+}
+
+.list p {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: 'Dancing Script', sans-serif;
+    padding: 0.4rem;
+    letter-spacing: 0.12rem;
+    word-spacing: 0.3rem;
+
+}
+
